@@ -3,9 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>About</title>
+    <link rel="stylesheet" href="/css/main.css">
 </head>
 <body>
-    
+    <header id="header">
+        <a href="Menu">
+            <nav id="menu">
+                <table class="aloldalak">
+                    <tr>
+                        <th>
+                            <a href="/home.html">Home</a>
+                        </th>
+                        <th>
+                            <a href="/works.html">Works</a>
+                        </th>
+                        <th>
+                            <a href="/gallery.html">Gallery</a>
+                        </th>
+                        <th>
+                            <a href="/about.html">About</a>
+                        </th>
+                    </tr>
+                </table>
+            </nav>
+        </a>
+    </header>
+
+    <main class="mebox">
+        <h1>
+            About
+        </h1>
+        <section class="memore">
+            <picture class="meimg">
+                <img src="https://i.imgflip.com/3im7i1.jpg" alt="smiling calvin">
+            </picture>
+            <article class="memoretext">
+                <header>
+                    <ol>
+                        <li> Erősségek
+                            <ul>
+                                <li>gdsxhdf fsd</li>
+                                <li>gdsxhdf fsd</li>
+                                <li>gdsxhdf fsd</li>
+                            </ul>  
+                        </li>
+                        <li> Hobbik
+                            <ul>
+                                <li>gdsxhdf fsd</li>
+                                <li>gdsxhdf fsd</li>
+                                <li>gdsxhdf fsd</li>
+                            </ul>  
+                        </li>
+                        <li> Nyelvek
+                            <ul>
+                                <li>gdsxhdf fsd</li>
+                                <li>gdsxhdf fsd</li>
+                                <li>gdsxhdf fsd</li>
+                            </oul>  
+                        </li>
+                    </ol>
+                </header>
+            </article>
+        </section>
+    </main>
+
+    <main>
+        <form class="contact-form">
+            <label for="contact-name">Név:</label><br>
+            <input type="text" pattern=".{5,}" name="contact-name" required><br>
+            <label for="email">Email address:</label><br>
+            <input type="email" name="email" required><br>
+            <label for="msg">Üzenet:</label><br>
+            <input type="text" pattern=".{20,}" name="msg" required class="input-msg"><br>
+            <input type="submit" value="Send">
+        </form>
+    </main>
+
+    <footer>
+        <a href="#menu">
+            <button type="button">
+                scroll up
+            </button>
+        </a>
+    </footer>
 </body>
 </html>
